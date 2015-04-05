@@ -18,7 +18,8 @@ function getDirectories(srcpath) {
 module.exports = {
   entry: {
     app: [ 
-      './app/assets/javascripts/src/index.js'
+      './app/assets/javascripts/src/index.js',
+      './app/assets/javascripts/src/init_rendered.js'
     ],
 
     react_server: [
