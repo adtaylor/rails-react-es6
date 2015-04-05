@@ -1,0 +1,44 @@
+/*
+ * Layout
+**/
+
+#container {
+}
+
+.title-container {
+  max-width: 500px;
+}
+
+
+
+[role="main"] {
+  float: left;
+  padding: 6em;
+  width: 70%;
+}
+
+.site-nav {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: #FCFCFC; */
+  border-left: 1px solid #F5D9DD;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 2em;
+}
+
+.content-block {
+  max-width: 400px;
+}
+
+.content-block__aside {
+  float: left;
+  width: 30%;
+}
+
+.content-block__main {
+  overflow: hidden;
+}
+

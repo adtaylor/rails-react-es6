@@ -1,0 +1,70 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "description": "== README",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "browserstack-runner": "^0.2.2",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.7.1",
+    "coffeeify": "^0.7.0",
+    "envify": "^3.4.0",
+    "envify-loader": "KyleAMathews/envify-loader",
+    "flux": "^2.0.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.5.0",
+    "grunt-fontello": "~0.1.2",
+    "grunt-jasmine-node": "^0.2.1",
+    "grunt-svg2png": "~0.2.5",
+    "grunt-webpack": "^1.0.8",
+    "jest-cli": "^0.1.18",
+    "matchdep": "^0.3.0",
+    "object-assign": "^1.0.0",
+    "react": "^0.12.2",
+    "react-tools": "^0.11.1",
+    "sixpack-client": "^1.0.0",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.8.0",
+    "yaks": "^0.6.0",
+    "yaks_shims": "^0.0.2",
+    "babel": "^5.0.6",
+    "babel-loader": "^5.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testDirectoryName": "spec/javascripts/jest",
+    "scriptPreprocessor": "js-preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ],
+    "testFileExtensions": [
+      "coffee",
+      "js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thebeansgroup/connect"
+  },
+  "author": "Ad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebeansgroup/connect/issues"
+  },
+  "homepage": "https://github.com/thebeansgroup/connect",
+  "devDependencies": {
+    "cowsay-loader": "^1.0.1",
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-exec": "^0.4.6",
+    "jasmine": "^2.2.1",
+    "jest-cli": "^0.1.18"
+  }
+}
